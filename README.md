@@ -34,6 +34,13 @@
 $ npm install
 ```
 
+## Configuration
+
+```bash
+change name ormconfig.json.example to ormconfig.json
+use your own config database
+```
+
 ## Running the app
 
 ```bash

@@ -24,7 +24,7 @@ export class MensajesController {
                 response.status(HttpStatus.OK).json(mensajesList);
             }
         ).catch(() => {
-            response.status(HttpStatus.FORBIDDEN).json({ mensaje: 'error en la obtencion de los mensajes' });
+            response.status(HttpStatus.FORBIDDEN).json({ mensaje: 'error en la obtencion de los mensajes'});
         }
         );
     }
